@@ -1,12 +1,14 @@
-public class BelarusianHen extends Hen{
+package src;
+
+public class RussianHen extends Hen{
         @Override
         public int getCountOfEggsPerMonth(){
-            return 8;
+            return 5;
         }
         @Override
         public String getDescription(){
             return super.getDescription() + " Моя страна - " +
-            Country.BELARUS + ". Я несу " + this.getCountOfEggsPerMonth() +
+            Country.RUSSIA + ". Я несу " + this.getCountOfEggsPerMonth() +
             " яиц в месяц.";
         }
     }
