@@ -1,3 +1,5 @@
+package src;
+
 public class MoldovanHen extends Hen{
       @Override
       public int getCountOfEggsPerMonth(){

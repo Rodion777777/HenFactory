@@ -1,3 +1,5 @@
+package src;
+
 public abstract class Hen{
         public abstract int getCountOfEggsPerMonth();
         public String getDescription(){

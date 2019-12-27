@@ -1,3 +1,5 @@
+package src;
+
 public class Country {
     public static String UKRAINE = "Ukraine";
     public static String RUSSIA = "Russia";

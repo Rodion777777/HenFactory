@@ -1,3 +1,5 @@
+package src;
+import static src.SomeClass.*;
 /*
 Куриная фабрика
 */
@@ -6,7 +8,8 @@ public class Solution {
     public static void main(String[] args) {
         Hen hen = HenFactory.getHen(Country.BELARUS);
         hen.getCountOfEggsPerMonth();
-         System.out.println(hen.getDescription());
+        System.out.println(hen.getDescription());
+        System.out.println(getString1());
     }
 
     static class HenFactory {
