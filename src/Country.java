@@ -1,6 +1,6 @@
 public class Country {
-    public static final String UKRAINE = "Украина";
-    public static final String RUSSIA = "Россия";
-    public static final String MOLDOVA = "Молдавия";
-    public static final String BELARUS = "Беларусь";
+    public static String UKRAINE = "Ukraine";
+    public static String RUSSIA = "Russia";
+    public static String MOLDOVA = "Moldova";
+    public static String BELARUS = "Belarus";
 }

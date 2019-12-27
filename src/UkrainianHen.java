@@ -1,7 +1,7 @@
 public class UkrainianHen extends Hen{
         @Override
-        public String getCountOfEggsPerMonth(){
-            return "6";
+        public int getCountOfEggsPerMonth(){
+            return 6;
         }
         @Override
         public String getDescription(){

@@ -1,7 +1,5 @@
 public abstract class Hen{
-        public String getCountOfEggsPerMonth(){
-            return "какое-то число";
-        };
+        public abstract int getCountOfEggsPerMonth();
         public String getDescription(){
             return "Я - курица.";
         }
